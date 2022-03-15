@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UXSC2CEA3MzUeq/+/Tqg9Mh9fSVNyVdp+tCMW6bAE/XkIO/MmtIABmI8XA6YktV/CTWpbUnxIa+prw2s7BOjeg==",
+  "dgSpecHash": "at0a3pLkc1PuwfZYZZABicujq+mEevW+hj1cCzzkkhL4HnXeZoYy44GxI0qtQpxsanE+9iVcgjho96SksoGHnw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QDecorator\\QDecorator.csproj",
+  "projectFilePath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",

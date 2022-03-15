@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QDecorator\\QDecorator.csproj": {}
+    "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QDecorator\\QDecorator.csproj": {
+    "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QDecorator\\QDecorator.csproj",
-        "projectName": "QDecorator",
-        "projectPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QDecorator\\QDecorator.csproj",
+        "projectUniqueName": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
+        "projectName": "QComposite",
+        "projectPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
         "packagesPath": "C:\\Users\\Ferney\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QDecorator\\obj\\",
+        "outputPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ferney\\AppData\\Roaming\\NuGet\\NuGet.Config",
