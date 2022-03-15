@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V/Eyv3f/J8iE6hGIbS8fTDm3zNR0+gH0PsLils73OjXYHoegNvEupEcszzHD1MsepwXniTg0YXCtONOWGbfRPQ==",
+  "dgSpecHash": "Mm/EBPehJ+YjS8jr8JUlbbU1sxicwx/LKD+na4S/m+makcJ//2OKh4RerMBzhE66LcAJfDl+2oguHmsu/0nl6Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QFacade\\QFacade.csproj",
+  "projectFilePath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QFacade\\QFacade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",

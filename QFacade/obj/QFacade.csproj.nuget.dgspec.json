@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QFacade\\QFacade.csproj": {}
+    "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QFacade\\QFacade.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QFacade\\QFacade.csproj": {
+    "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QFacade\\QFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QFacade\\QFacade.csproj",
+        "projectUniqueName": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QFacade\\QFacade.csproj",
         "projectName": "QFacade",
-        "projectPath": "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QFacade\\QFacade.csproj",
+        "projectPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QFacade\\QFacade.csproj",
         "packagesPath": "C:\\Users\\Ferney\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QFacade\\obj\\",
+        "outputPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QFacade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ferney\\AppData\\Roaming\\NuGet\\NuGet.Config",

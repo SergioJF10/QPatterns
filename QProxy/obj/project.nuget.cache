@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eYdxtDyccpeb68SylD0oIB4xQ1SiuvjVDl7RmdwCOR6BxE4eLrLN/8D9wC/sPeN4iBRd+TxsjgzZVsy22QDfFg==",
+  "dgSpecHash": "Dmtc050AIfXIv8+HVy9ySj/uEoQI4xKrDQy2WXBh+bl9bIqOXUVJYHVAgC8S6HHcWf8OhyGtuLN4a0QTI2JhVw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QProxy\\QProxy.csproj",
+  "projectFilePath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QProxy\\QProxy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",

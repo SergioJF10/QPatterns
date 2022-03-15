@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iWAevRKsKkKXqZkLGv4+yYckToENbTmBvXtt7lDWxWD6/DxyXoCU2YRIQhbrgWtkClUPYZ7YHtveq7cbuL0i5w==",
+  "dgSpecHash": "zj0Pf1GRjuRHfjCoLyyhe3f1eYmjs6mqigmXqpMFNnO8UJMVSnKg2rTYwg5D+n8SGCWb1aqB/q4QMbHqun1ZWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QFlyweight\\QFlyweight.csproj",
+  "projectFilePath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QFlyweight\\QFlyweight.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",
@@ -132,8 +132,7 @@
     "C:\\Users\\Ferney\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512",
-    "C:\\Users\\Ferney\\.nuget\\packages\\yamldotnet\\7.0.0\\yamldotnet.7.0.0.nupkg.sha512",
-    "C:\\Users\\Ferney\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+    "C:\\Users\\Ferney\\.nuget\\packages\\yamldotnet\\7.0.0\\yamldotnet.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

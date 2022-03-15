@@ -7068,11 +7068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QProxy\\QProxy.csproj",
+      "projectUniqueName": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QProxy\\QProxy.csproj",
       "projectName": "QProxy",
-      "projectPath": "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QProxy\\QProxy.csproj",
+      "projectPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QProxy\\QProxy.csproj",
       "packagesPath": "C:\\Users\\Ferney\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Ferney\\OneDrive - Universidad de Castilla-La Mancha\\aQuantum\\qsharp_patterns\\QProxy\\obj\\",
+      "outputPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QProxy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ferney\\AppData\\Roaming\\NuGet\\NuGet.Config",
