@@ -9,4 +9,4 @@ This repository contains several approaches trying to adapt the classical design
 - Composite Pattern: `QComposite`. Example of the Composite pattern for ordering a set of functionalities and executing them as a "operational thread".
 
 ## Languages & Integration
-For implementing those hybrid dummy systems, we take advantage of the integration that Q# provides us for using hosts programs for calling the quantum operations written in Q#. As host language we will use Python.
+For implementing those hybrid dummy systems, we take advantage of the integration that Q# provides us for using hosts programs for calling the quantum operations written in Q#. As host language we will use Python. For more information, visit this [link](https://docs.microsoft.com/es-es/azure/quantum/user-guide/host-programs?tabs=tabid-python#q-with-host-programs) with Microsoft's documentation about how to run a Q# program.
