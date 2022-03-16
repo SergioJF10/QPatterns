@@ -1,7 +1,7 @@
 '''Module with all the elements needed for implementing a dummy sample hybrid information system applying the Composite Pattern'''
 
 import qsharp
-from QuantumGates import OpX, OpY
+from QuantumGates import OpX, Entanglement
 from abc import ABC, abstractmethod
 
 class Component(ABC):
@@ -45,7 +45,7 @@ class Composite(Component):
 
     def Operation(self):
         '''Implementation of the Operation method for executing the operation of the composite and its children'''
-        print(f'[Composite {self.name}] Pauli Y Result: {OpY.simulate()}')
+        print(f'[Composite {self.name}] Pauli Y Result: {Entanglement.simulate()}')
 
         for child in self.children:
             print('\t', end="")
