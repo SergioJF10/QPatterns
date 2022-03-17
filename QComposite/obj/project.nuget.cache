@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lvxF/c1XQJ8se24IVp/ey9xdMbXUcfxVD/PA4dwDp89LIiNhR666Uy8YXAT2I/O0QJm+N/eUa6lK20/ttKBeGQ==",
+  "dgSpecHash": "at0a3pLkc1PuwfZYZZABicujq+mEevW+hj1cCzzkkhL4HnXeZoYy44GxI0qtQpxsanE+9iVcgjho96SksoGHnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
+  "projectFilePath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",
@@ -132,8 +132,7 @@
     "C:\\Users\\Ferney\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Ferney\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512",
-    "C:\\Users\\Ferney\\.nuget\\packages\\yamldotnet\\7.0.0\\yamldotnet.7.0.0.nupkg.sha512",
-    "C:\\Users\\Ferney\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+    "C:\\Users\\Ferney\\.nuget\\packages\\yamldotnet\\7.0.0\\yamldotnet.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

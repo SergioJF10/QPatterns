@@ -7068,11 +7068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
+      "projectUniqueName": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
       "projectName": "QComposite",
-      "projectPath": "C:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
+      "projectPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\QComposite.csproj",
       "packagesPath": "C:\\Users\\Ferney\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\obj\\",
+      "outputPath": "c:\\Users\\Ferney\\Documents\\GitHub\\QPatterns\\QComposite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ferney\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7087,7 +7087,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -7099,7 +7098,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.Quantum.CSharpGeneration": {
             "suppressParent": "All",
@@ -7136,18 +7134,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.22, 3.1.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
       }
     }
   }
