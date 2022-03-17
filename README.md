@@ -2,11 +2,14 @@
 This repository contains several approaches trying to adapt the classical design patterns to sample dummy hybrid information systems, i.e., classical information systems that require some other sample and dummy quantum operations. The main goal of this repo is trying to fit the classic design patterns in information systems coexisiting with other quantum algorithms.
 
 ## Index
-- Facade Pattern: `QFacade`. Example of the Facade Pattern for applying some Quantum Gates grouped.
-- Flyweight Pattern: `QFlyweight`. Example of the Flyweigght Pattern for managing the client's use of systems for measuring superpositions.
-- Proxy Pattern: `QProxy`. Example of the Proxy Pattern for managing the client's operation for measuring a superposition by means of a proxy who manages the RealSubject provider.
-- Decorator Pattern: `QDecorator`. Example of the Decorator pattern for managing the functionality improvement for the basic Pauli gates in a dummy hybrid system.
-- Composite Pattern: `QComposite`. Example of the Composite pattern for ordering a set of functionalities and executing them as a "operational thread".
+- Structural Patterns
+   - Facade Pattern: `QFacade`. Example of the Facade Pattern for applying some Quantum Gates grouped.
+   - Flyweight Pattern: `QFlyweight`. Example of the Flyweigght Pattern for managing the client's use of systems for measuring superpositions.
+   - Proxy Pattern: `QProxy`. Example of the Proxy Pattern for managing the client's operation for measuring a superposition by means of a proxy who manages the RealSubject provider.
+   - Decorator Pattern: `QDecorator`. Example of the Decorator pattern for managing the functionality improvement for the basic Pauli gates in a dummy hybrid system.
+   - Composite Pattern: `QComposite`. Example of the Composite pattern for ordering a set of functionalities and executing them as a "operational thread".
+- Behavioral Patterns
+   - State Pattern: `QState`. Example of the State pattern for managing the execution of quantum operations according to the correspongding state and its transitions.
 
 ## Languages & Integration
 For implementing those hybrid dummy systems, we take advantage of the integration that Q# provides us for using hosts programs for calling the quantum operations written in Q#. As host language we will use Python. For more information, visit this [link](https://docs.microsoft.com/es-es/azure/quantum/user-guide/host-programs?tabs=tabid-python#q-with-host-programs) with Microsoft's documentation about how to run a Q# program.
