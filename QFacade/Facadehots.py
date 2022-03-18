@@ -42,8 +42,15 @@ class Facade:
         self.sX.DoX()
         self.sH.DoH()
 
+class Client:
+    '''Client class for calling the Facade pattern operations'''
+    def __init__(self, facade):
+        self.facade = facade
+
+    def Main(self):
+        '''Main method'''
+        self.facade.DoPauli()
+        self.facade.DoXnH()
 
 # MAIN
-facade = Facade()
-facade.DoPauli()
-facade.DoXnH()
+Client(Facade()).Main()

@@ -63,13 +63,19 @@ class ConcreteDecoratorX(Decorator):
         super().Operation()
         print(f'Concrete Decorator X operation result [X-GATE]: {OpX.simulate()}') # Added operation
 
+class Client:
+    '''Client class for calling the operations from the Decorator Pattern'''
+    def __init__(self):
+        self.concrete_component = ConcreteComponent()
+        self.concrete_deco_Y = ConcreteDecoratorY()
+        self.concrete_deco_X = ConcreteDecoratorX()
+
+    def Main(self):
+        '''Main method'''
+        self.concrete_deco_Y.SetComponent(self.concrete_component)
+        self.concrete_deco_X.SetComponent(self.concrete_deco_Y)
+
+        self.concrete_deco_X.Operation()
 
 # MAIN
-concrete_component = ConcreteComponent()
-concrete_deco_Y = ConcreteDecoratorY()
-concrete_deco_X = ConcreteDecoratorX()
-
-concrete_deco_Y.SetComponent(concrete_component)
-concrete_deco_X.SetComponent(concrete_deco_Y)
-
-concrete_deco_X.Operation()
+Client().Main()

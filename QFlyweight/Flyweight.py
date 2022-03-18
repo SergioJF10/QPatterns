@@ -20,7 +20,7 @@ class ConcreteFlyweight(Flyweight):
     
     def Operation(self):
         '''Inherited method implementing the Quantum operation'''
-        print(MeasureSuperposition.simulate())
+        print(f'[ConcreteFlyweight] Quantum Operation Result: {MeasureSuperposition.simulate()}')
 
 class FlyweightFactory():
     '''FlyweightFactory class for managing the existance of several Flyweights'''
@@ -47,12 +47,15 @@ class Client():
     def Main(self):
         '''Method for simulating the use of the factory'''
         fly1 = factory.GetFlyweight('A')
+        print('[Client] Calling ConcreteFlyweight A')
         fly1.Operation()
 
         fly2 = factory.GetFlyweight('B')
+        print('[Client] Calling ConcreteFlyweight B')
         fly2.Operation()
 
         fly3 = factory.GetFlyweight('C')
+        print('[Client] Calling ConcreteFlyweight C')
         fly3.Operation()
 
 # MAIN
