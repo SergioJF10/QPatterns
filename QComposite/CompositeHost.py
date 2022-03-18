@@ -4,7 +4,7 @@ import qsharp
 from QuantumGates import OpX, Entanglement
 from abc import ABC, abstractmethod
 
-class Component(ABC):
+class TreeComponent(ABC):
     '''Abstract class representing the interface for the Composite Pattern Tree Structure'''
     def __init__(self, name):
         self.name = name
@@ -24,12 +24,7 @@ class Component(ABC):
         '''Abstract method for removing a component from the tree'''
         pass
 
-    @abstractmethod
-    def Operation(self):
-        '''Abstract method for doing the operation of the component'''
-        pass
-
-class Composite(Component):
+class Composite(TreeComponent):
     '''Implementation of the Component Abstract class representing a non-terminal node from the pattern tree'''
     def __init__(self, name):
         super().__init__(name)
@@ -51,7 +46,7 @@ class Composite(Component):
             print('\t', end="")
             child.Operation()
 
-class Leaf(Component):
+class Leaf(TreeComponent):
     '''Implementation of the Component Abstract class representing a terminal node from the pattern tree'''
     def __init__(self, name):
         super().__init__(name)
@@ -68,18 +63,26 @@ class Leaf(Component):
         '''Implementation of the Operation method for executing the operation of the composite and its children'''
         print(f'[Leaf {self.name}] Pauli X Result: {OpX.simulate()}')
 
+class Client:
+    '''Client class for calling the operations of the Composite Pattern'''
+    def __init__(self):
+        self.root = Composite('Root')
+
+    def Main(self):
+        '''Main method'''
+        self.root.Add(Leaf('Leaf0'))
+
+        aux = Composite('Comp1')
+        aux.Add(Leaf('Leaf1'))
+        aux.Add(Leaf('Leaf2'))
+        self.root.Add(aux)
+
+        leaf3 = Leaf('Leaf3')
+        self.root.Add(leaf3)
+        self.root.Remove(leaf3)
+
+        # Start the operation
+        self.root.Operation()
+
 # MAIN
-root = Composite('Root')
-root.Add(Leaf('Leaf0'))
-
-aux = Composite('Comp1')
-aux.Add(Leaf('Leaf1'))
-aux.Add(Leaf('Leaf2'))
-root.Add(aux)
-
-leaf3 = Leaf('Leaf3')
-root.Add(leaf3)
-root.Remove(leaf3)
-
-# Start the operation
-root.Operation()
+Client().Main()
