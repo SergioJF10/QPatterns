@@ -1,5 +1,4 @@
 '''Module including all the elements needed to implement the State behavioural pattern'''
-
 import qsharp
 from QuantumOperations import Entanglement, Superposition
 from abc import ABC, abstractmethod
@@ -69,15 +68,20 @@ class ConcreteStateEntanglement(State):
         # Do transition
         self.context.Transition(next_state)
 
+class Client:
+    '''Client class for accessing the opertations defined in the pattern'''
+    def Main(self):
+        '''Main method'''
+        # Create the instances
+        superposition_state = ConcreteStateSuperposition()
+        entanglement_state = ConcreteStateEntanglement()
+        context = Context(superposition_state)
+        # Set the contex object
+        superposition_state.SetContext(context)
+        entanglement_state.SetContext(context)
+        # Testing operations
+        for i in range(4): # 4 iterations 
+            context.Operation()
 
 # MAIN
-# Create the instances
-superposition_state = ConcreteStateSuperposition()
-entanglement_state = ConcreteStateEntanglement()
-context = Context(superposition_state)
-# Set the contex object
-superposition_state.SetContext(context)
-entanglement_state.SetContext(context)
-# Testing operations
-for i in range(4): # 4 iterations 
-    context.Operation()
+Client().Main()

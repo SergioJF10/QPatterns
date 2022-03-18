@@ -15,29 +15,30 @@ class RealSubject(Subject):
 
     def Request(self):
         '''Quantum Logic Call'''
-        print(QProxy.Request.simulate())
+        print(f'[RealSubject] Quantum Algorithm Result: {QProxy.Request.simulate()}')
 
 class Proxy(Subject):
     '''Proxy for requesting the RealSubject'''
-
-    realSubj = None
+    def __init__(self):
+        self.realSubj = None
 
     def Request(self):
         '''Proxy middle Request'''
         if self.realSubj is None:
             self.realSubj = RealSubject()
         
+        print('[Proxy] Calling RealSubject.Request()')
         self.realSubj.Request()
 
 class Client:
     '''Client asking for the request'''
+    def __init__(self, subj):
+        self.subj = subj
 
-    subj = Proxy()
-
-    def DoRequest(self):
+    def Main(self):
+        '''Main method'''
         self.subj.Request()
 
 
 ## MAIN
-client = Client()
-client.DoRequest()
+Client(Proxy()).Main()
