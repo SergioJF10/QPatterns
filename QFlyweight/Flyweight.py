@@ -1,3 +1,4 @@
+'''Module including all the elements needed for adapting the Flyweight pattern'''
 from abc import ABC, abstractmethod
 import qsharp
 from Superposition import MeasureSuperposition
@@ -38,14 +39,23 @@ class FlyweightFactory():
         return flyweight
 
 
+class Client():
+    '''Client class calling the operations'''
+    def __init__(self, factory):
+        self.factory = factory
+
+    def Main(self):
+        '''Method for simulating the use of the factory'''
+        fly1 = factory.GetFlyweight('A')
+        fly1.Operation()
+
+        fly2 = factory.GetFlyweight('B')
+        fly2.Operation()
+
+        fly3 = factory.GetFlyweight('C')
+        fly3.Operation()
+
 # MAIN
 factory = FlyweightFactory()
-
-fly1 = factory.GetFlyweight('A')
-fly1.Operation()
-
-fly2 = factory.GetFlyweight('B')
-fly2.Operation()
-
-fly3 = factory.GetFlyweight('C')
-fly3.Operation()
+client = Client(factory)
+client.Main()
