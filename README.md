@@ -12,9 +12,15 @@ This repository contains several approaches trying to adapt the classical design
    - State Pattern: [`QState`](https://github.com/SergioJF10/QPatterns/tree/main/QState). Example of the State pattern for managing the execution of quantum operations according to the corresponding state and its transitions.
    - Observer Pattern: [`QObserver`](https://github.com/SergioJF10/QPatterns/tree/main/QObserver). Example of the Observer pattern for managing the observers' updates from a subject running heavy quantum algorithms.
 - Other folders
-   - Documentation: [`doc`](). Contains documentation files for the all the projects in this repository
-      - Diagrams: [`UML_Diagrams`](). Visual Paradigm (.vpp) files containing the UML class diagrams of the previous examples.
-      - PDF Doc.: [`Documentation`](). PDF (.pdf) file containing a textual explanation of the previous examples in the repository.
+   - Documentation: [`doc`](https://github.com/SergioJF10/QPatterns/tree/main/doc). Contains documentation files for the all the projects in this repository
+      - Diagrams: [`UML_Diagrams`](https://github.com/SergioJF10/QPatterns/tree/main/doc/UML_Diagrams). Visual Paradigm (.vpp) files containing the UML class diagrams of the previous examples.
+      - PDF Doc.: [`Documentation`](https://github.com/SergioJF10/QPatterns/blob/main/doc/Documentation.pdf). PDF (.pdf) file containing a textual explanation of the previous examples in the repository.
 
 ## Languages & Integration
 For implementing those hybrid dummy systems, we take advantage of the integration that Q# provides us for using hosts programs for calling the quantum operations written in Q#. As host language we will use Python. For more information, visit this [link](https://docs.microsoft.com/es-es/azure/quantum/user-guide/host-programs?tabs=tabid-python#q-with-host-programs) with Microsoft's documentation about how to run a Q# program.
+
+## Requierements
+For running all the code from the projects you will need some requirements:
+- Q# support: From the Quantum Development Kit. [Link](https://docs.microsoft.com/es-es/azure/quantum/install-overview-qdk) to documentation for this package.
+- Python 3: At least Python 3.6.X. [Link](https://www.python.org/downloads/) to the download page.
+- qsharp Python Module: To run the Python host code. [Link](https://pypi.org/project/qsharp/) to the installation guide.
